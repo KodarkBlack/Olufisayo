@@ -1,13 +1,13 @@
-import React from 'react'
-import {TypeAnimation} from 'react-type-animation'
+import { TypeAnimation } from 'react-type-animation'
+import tech from '../assets/jpeg/technology.jpg'
 
 const Home = () => {
   return (
-    <div id="main">
-      <img  src="https://unsplash.com/photos/XJXWbfSo2f0" alt="" />
+    <div className="relative">
+      <img  src={tech} alt='technology' className='w-full h-screen'/>
 
-      <div>
-        <h1 className="text-3xl  text-startup-blue">I'm Israel Olufisayo</h1>
+      <div className='absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center'> 
+        <h1 className="text-3xl text-white  text-startup-blue">I'm Israel Olufisayo</h1>
         <h2>
         <TypeAnimation
           sequence={[
@@ -23,15 +23,15 @@ const Home = () => {
           ]}
           wrapper="span"
           speed={50}
-          style={{ fontSize: '2em', display: 'inline-block' }}
+          style={{ fontSize: '2em',  display: 'inline-block', WebkitTextFillColor: 'white' }}
           repeat={Infinity}
         />
         </h2>
-        <div>
+        {/* <div>
           <FaTwitter/>
           <FaFacebook/>
           <FaInstagram/>
-        </div>
+        </div> */}
       </div>
     </div>
   )
