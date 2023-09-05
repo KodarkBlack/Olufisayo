@@ -4,7 +4,7 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Home = () => {
   return (
-    <div className="relative">
+    <div id='#main' className="relative">
       <img  src={tech} alt='technology' className='w-full h-screen object-cover'/>
       <div className='w-full h-screen absolute top-0 left-0 bg-black/70'></div>
 

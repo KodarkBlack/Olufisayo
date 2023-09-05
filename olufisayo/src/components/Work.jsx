@@ -9,6 +9,12 @@ const data = [
         details: 'Led a team of developers, managed project timelines, and ensured successful project delivery.'
     },
     {
+        year: 2020,
+        title: 'Team Lead',
+        duration: '1 Years',
+        details: 'Led a team of developers, managed project timelines, and ensured successful project delivery.'
+    },
+    {
         year: 2021,
         title: 'Frontend Developer',
         duration: '3 Years',
@@ -18,6 +24,12 @@ const data = [
         year: 2022,
         title: 'Backend Developer',
         duration: '2 Years',
+        details: 'Built and maintained backend systems, including databases, APIs, and server-side logic.'
+    },
+    {
+        year: 2022,
+        title: 'Backend Developer',
+        duration: '1 Year',
         details: 'Built and maintained backend systems, including databases, APIs, and server-side logic.'
     },
     {
