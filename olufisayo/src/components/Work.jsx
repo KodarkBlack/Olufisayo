@@ -3,34 +3,23 @@ import WorkItems from '../WorkItems'
 
 const data = [
     {
-        year: 2020,
-        title: 'Team Lead',
-        duration: '1 Years',
-        details: 'Led a team of developers, managed project timelines, and ensured successful project delivery.'
+        year: 2018,
+        title: 'Graphics Designer',
+        duration: '2 Year',
+        details: 'Led a team of designer, managed project timelines, and ensured successful project delivery.'
     },
     {
         year: 2020,
-        title: 'Team Lead',
-        duration: '1 Years',
-        details: 'Led a team of developers, managed project timelines, and ensured successful project delivery.'
-    },
-    {
-        year: 2021,
-        title: 'Frontend Developer',
+        title: 'Music Technician',
         duration: '3 Years',
         details: 'Designed and developed user-friendly interfaces for web applications using modern frontend technologies.'
     },
     {
-        year: 2022,
-        title: 'Backend Developer',
-        duration: '2 Years',
-        details: 'Built and maintained backend systems, including databases, APIs, and server-side logic.'
-    },
-    {
-        year: 2022,
-        title: 'Backend Developer',
-        duration: '1 Year',
-        details: 'Built and maintained backend systems, including databases, APIs, and server-side logic.'
+        year: 2021,
+        title: 'Frontend Developer',
+        duration: '1 year',
+        details: 'Designed and developed user-friendly interfaces for web applications using modern frontend technologies including databases, APIs.'
+
     },
     {
         year: 2023,
