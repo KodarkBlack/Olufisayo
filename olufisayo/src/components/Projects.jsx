@@ -1,9 +1,16 @@
 import React from 'react'
 import ProjectItems from './ProjectItems'
-import firstImage from '../assets/screenshotone.png'
-import secondImage from '../assets/screenshottwo.png'
-import thirdImage from '../assets/screenshotthree.png'
-import fourthImage from '../assets/screenshotfour.png'
+import Shoppy from '../assets/shoppy.png'
+import Toms from '../assets/toms.png'
+import Detlify from '../assets/detlify.png'
+import Ladey from '../assets/ladey.png'
+import Acadasave from '../assets/acadasave.png'
+import Yoruba from '../assets/yoruba.png'
+import Tomsplace from '../assets/tomsplace.png'
+import Tomsfood from '../assets/tomsfood.png'
+import Olufisayo from '../assets/olufisayo.png'
+
+
 
 const Projects = () => {
   return (
@@ -15,10 +22,15 @@ const Projects = () => {
           and get in touch if you have any questions or would like to collaborate on a project.
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
-            <ProjectItems img={firstImage} title='React'/>
-            <ProjectItems img={secondImage} title='Alx'/>
-            <ProjectItems img={thirdImage} title='Html, Css'/>
-            <ProjectItems img={fourthImage} title='javascript'/>
+            <ProjectItems img={Toms} title='React'/>
+            <ProjectItems img={Detlify} title='HTML, CSS, JAVASCRIPT, BOOTSTRAP, AOS'/>
+            <ProjectItems img={Ladey} title='HTML, CSS, JAVASCRIPT, BOOTSTRAP, AOS'/>
+            <ProjectItems img={Shoppy} title='HTML, CSS, JAVASCRIPT, BOOTSTRAP, AOS'/>
+            <ProjectItems img={Acadasave} title='HTML, CSS, JAVASCRIPT, BOOTSTRAP, AOS'/>
+            <ProjectItems img={Olufisayo} title='HTML, CSS, JAVASCRIPT, BOOTSTRAP'/>
+            <ProjectItems img={Yoruba} title='HTML, CSS, JAVASCRIPT'/>
+            <ProjectItems img={Tomsplace} title='React + vite,  tailwindcss'/>
+            <ProjectItems img={Tomsfood} title='React + vite,  tailwindcss'/>
         </div>
     </div>
   )
